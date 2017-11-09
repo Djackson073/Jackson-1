@@ -1,0 +1,11 @@
+#! /bin/bash
+echo "Server Name: $(hostname)"
+"------------------------------"
+" "
+"There are $(uptime | cut -d, -f3) logged in."
+" "
+"----------------------"
+"Your disk usage is:"
+"df -h"
+
+
